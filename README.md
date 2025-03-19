@@ -1,2 +1,1 @@
-
-#A simple responsive nav bar that adjusts based on screen size.
+# This repository contains all tasks completed for the Techno Hacks program.
