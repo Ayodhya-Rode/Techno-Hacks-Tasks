@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navigation Bar</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div id="logo">Shopper</div>
+      <div id="menu">
+        <ul class="main" id="main">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Catalog</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <!-- <li><a href="#">Elements</a></li> -->
+        </ul>
+      </div>
+      <div id="hamburger" class="hamburger">
+        <button id="BtnHam" class="btn bi bi-three-dots-vertical"></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-div">
+    <div id="women">
+      <div class="parent-div">
+        <button class="btn womenBtn" id="shopBtn">Women</button>
+      </div>   
+    </div>
+    <div id="men">
+      <div class="parent-div">
+        <button class="btn menBtn" id="shopBtn">Men</button>
+      </div>
+    </div>
+    <div id="kid">
+      <div class="parent-div">
+        <button class="btn kidBtn" id="shopBtn">Kid</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
