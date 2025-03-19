@@ -1,0 +1,169 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 15px;
+}
+
+#logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+ul li a:hover {
+  background-color: #555;
+  color: #f2f2f2;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  height: 90vh;
+}
+
+#women{
+  background-image: url("https://img.freepik.com/free-photo/stylish-woman-spending-time-summer-field_1157-36070.jpg?t=st=1742340776~exp=1742344376~hmac=41fdc8c72ad65a562899989ead8c319fe49a79112a955da4f327c26df268d3c8&w=740");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+#women:hover{
+  opacity: 1;
+}
+.parent-div {
+  display: flex;
+  justify-content: center; 
+  align-items: end; 
+  height: 90%; 
+  
+}
+.womenBtn,.menBtn,.kidBtn{
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.womenBtn:hover,.menBtn:hover,.kidBtn:hover{
+  background-color: white;
+  color: black;
+}
+
+#men{
+  background-image: url("https://img.freepik.com/free-photo/portrait-sexy-handsome-fashion-male-model-man-dressed-elegant-suit-posing-street-blue-sky_158538-8277.jpg?t=st=1742340550~exp=1742344150~hmac=453e6327bcc907735ba3f17c42b2d59f281d41b77acb02d5e81c90557985cc33&w=740");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+#men:hover{
+  opacity: 1;
+}
+
+#kid{
+  background-image: url("https://img.freepik.com/free-photo/kid-studio-portrait-isolated_23-2149198859.jpg?t=st=1742340622~exp=1742344222~hmac=a0a816defeb50ab3675e1eb690970b33378d32ff5179e51d89a1da25840a44b3&w=740");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+}
+#kid:hover{
+  opacity: 1;
+}
+
+
+
+/* Mobile Menu */
+@media (max-width: 600px) {
+  .main {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 30px;
+  }
+  #BtnHam{
+    color: white;
+  }
+  .main.active {
+    display: flex;
+  }
+
+  ul li {
+    margin: 10px 0;
+  }
+
+  ul li a {
+    padding: 15px;
+  }
+  #main-div{
+    display: grid;
+    grid-template-columns: 12fr ;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* background-size: contain;
+    background-position: center; */
+
+  }
+  #women{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  #men{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  #kid{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+}
