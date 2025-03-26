@@ -1,6 +1,7 @@
 # A responsive grid layout built using CSS Grid, Media Queries, and Flexbox, ensuring a seamless experience across different screen sizes.
 
 Task 6: Create a Responsive Grid Layout
+
 Problem Statement: Build a responsive grid layout for displaying images or content cards.
 Steps to Complete:
 
