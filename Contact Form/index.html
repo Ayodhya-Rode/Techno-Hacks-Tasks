@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form>
+      <div id="heading">
+        <span id="icon" class="bi bi-person-circle"></span>
+      </div>
+
+      <div id="usernameDiv">
+        <input type="text" name="username" id="username" placeholder="Username"/>
+        <p id="userValid" class="error-msg"></p> 
+      </div>
+
+      <div id="mailDiv">
+        <input type="email" name="mail" id="mail"  placeholder="Email ID" />
+        <p id="mailValid" class="error-msg"></p>  
+      </div>
+
+      <div>
+        <button onclick="btnClick()" id="btn" type="button">Login</button>
+      </div>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
