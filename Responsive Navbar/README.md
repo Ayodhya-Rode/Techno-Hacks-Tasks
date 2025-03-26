@@ -1,7 +1,8 @@
 # A Fully Responsive Navigation Bar built using HTML, CSS, and JavaScript. It adapts to different screen sizes, featuring a hamburger menu for mobile devices.
 
 
-Task 2: Design a Responsive Navigation Bar
+Task 2: Design a Responsive Navigation Bar.
+
 Problem Statement: Create a responsive navigation bar that works well on both desktop and mobile devices.
 
 Steps to Complete:
