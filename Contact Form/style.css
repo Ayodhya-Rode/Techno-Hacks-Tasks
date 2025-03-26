@@ -1,0 +1,46 @@
+/* Global Style */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom,rgb(252, 228, 173),rgb(239, 172, 242),rgb(171, 171, 255)); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon{
+    font-size: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+form{
+    border: 2px solid black;
+    padding: 50px;
+    /* background: transparent; */
+}
+input{
+    background:transparent; 
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    outline: none;          /*To remove input field defult style*/
+}
+form div{
+    margin-top: 20px;
+}
+#btn{
+    background:transparent; 
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(to left,rgb(222, 200, 149),rgb(239, 172, 242),rgb(171, 171, 255)); 
+    outline: none; 
+}
+
