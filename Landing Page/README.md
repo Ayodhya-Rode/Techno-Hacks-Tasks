@@ -1,6 +1,6 @@
-## Task 3: Build a Landing Page
+# Task 3: Build a Landing Page
 
-# Problem Statement: Design a landing page for a fictional product or service.
+## Problem Statement: Design a landing page for a fictional product or service.
 
 Steps to Complete:
 
