@@ -1,0 +1,168 @@
+</html> body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#background{
+    background-image: url("https://img.freepik.com/free-photo/photorealistic-view-off-road-car-with-nature-terrain-weather-conditions_23-2151430049.jpg?t=st=1743083490~exp=1743087090~hmac=e93a05c4fbdd5d9b78fb828a854e006f913854d0b3cc52c2be1dcc03235cb037&w=1380");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+}
+
+#logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+nav a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+}
+nav a:hover{
+    color: red;
+    text-decoration-line: underline;
+}
+
+.sec-home{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-top: 100px; 
+}
+.div1, .div2 {
+    padding-left: 3em;
+}
+#heading{
+    font-size: 50px;
+}
+
+#head-main{   
+    font-size: 2em;   
+}
+#social-media{
+    justify-items:center;
+    font-size:x-large;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 7fr 5fr ;
+}
+#about-left{
+    padding: 3em;
+    background-color: aliceblue;
+}
+#about-left div h2{
+    font-size: 50px;
+}
+#about-left div p{
+    font-size: larger;
+}
+#about-right{
+    background-image: url("https://img.freepik.com/free-photo/young-female-traveler-with-backpack-binoculars_23-2147842482.jpg?t=st=1743379961~exp=1743383561~hmac=6e4de3436c87840efa81ffc0e67755fca0b10f7a385cb735fe28bcf0fc5ce363&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    margin-bottom: 50px;
+    
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+}
+
+.input-fields input, 
+.input-fields textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-fields textarea {
+    resize: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: red;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    color: red;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #111;
+}
+ 
