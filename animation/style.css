@@ -1,0 +1,88 @@
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f8ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      gap: 30px;
+    }
+
+    /* Fade-in text */
+    .fade-text {
+      font-size: 2rem;
+      color: #333;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animated-btn {
+      padding: 10px 20px;
+      background: #0077ff;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .animated-btn:hover {
+      animation: bounce 0.8s;
+    }
+
+    @keyframes bounce {
+      0%   { transform: translateY(0); }
+      30%  { transform: translateY(-10px); }
+      50%  { transform: translateY(0); }
+      70%  { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* Card with scale on hover */
+    .card {
+      width: 250px;
+      height: 150px;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    /* Rotate on click */
+    .click-box {
+      width: 100px;
+      height: 100px;
+      background-color: #34c759;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.5s ease;
+    }
+
+    .click-box.clicked {
+      animation: rotateBox 1s forwards;
+    }
+
+    @keyframes rotateBox {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  
